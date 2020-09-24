@@ -19,6 +19,7 @@ px4_add_board(
 		#camera_trigger
 		#differential_pressure # all available differential pressure drivers
 		#distance_sensor # all available distance sensor drivers
+		distance_sensor
 		dshot
 		gps
 		#heater
@@ -30,7 +31,7 @@ px4_add_board(
 		#magnetometer # all available magnetometer drivers
 		magnetometer/hmc5883
 		#mkblctrl
-		optical_flow/px4flow
+		#optical_flow/px4flow
 		#pca9685
 		#pwm_input
 		#pwm_out_sim
@@ -40,14 +41,14 @@ px4_add_board(
 		#telemetry # all available telemetry drivers
 		telemetry/frsky_telemetry
 		#test_ppm
-		osd
+		#osd
 
 	MODULES
 		attitude_estimator_q
 		#camera_feedback
 		commander
 		dataman
-		ekf2
+		# ekf2
 		events
 		#fw_att_control
 		#fw_pos_control_l1

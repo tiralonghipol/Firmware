@@ -138,7 +138,7 @@ __EXPORT void board_on_reset(int status)
 	/* On resets invoked from system (not boot) insure we establish a low
 	 * output state (discharge the pins) on PWM pins before they become inputs.
 	 */
-
+	st
 	if (status >= 0) {
 		up_mdelay(400);
 	}

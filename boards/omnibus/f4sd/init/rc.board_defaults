@@ -21,6 +21,7 @@ then
 	param set ATT_ACC_COMP 0
 	param set ATT_W_ACC 0.4000
 	param set ATT_W_GYRO_BIAS 0.0000
+	param set SENS_TFMINI_CFG 6
 
 	param set SYS_HAS_MAG 0
 fi
